@@ -1,0 +1,34 @@
+MSET9 v1.0 by zoogie
+
+Prereqs:
+a. Basic computer skills and committing to follow these instructions exactly as written.
+b. Python 3 installed on your Windows or Linux PC. https://www.python.org/downloads/ (most linux distros should have this already, type python3 at terminal to check)
+c. An OLD 3DS 11.8.0-XX -> 11.17.0-XX to softmod. Any region is probably fine.
+
+1) Copy ALL of the INSIDE CONTENTS of this Release_v1.0 archive to your SD card's root (root is the first window that opens when you click on your SD card icon).
+hint: do NOT copy the Release_v1.0 folder to the sd root itself.
+
+2) Double-click mset9.bat to run mset9.py on the 3DS SD root, select your 3ds type and firmware (1-4), then select option 1 to setup MSET9. (linux users should launch script from the SD root using terminal)
+
+3) Take the SD card out and put it in your 3DS, turn on, and hover the curser over System Settings and turn 3DS off again.
+
+4) Turn on 3DS and launch System Settings, then follow this menu path exactly:
+Tap Data Management -> Nintendo 3DS -> Extra Data, and then STOP what you are doing. Don't press any buttons or touch the bottom screen.
+
+5) Check and make sure the Mii Maker icon is showing.
+Now eject the sd card cleanly (still careful not to tap any buttons or the screen!) and put it in your PC.
+
+6) Run mset9.py on your PC again and select option 2, hit enter. Now eject SD card.
+
+7) In one clean/steady push, re-insert the sd card in the 3ds and the hax should trigger! 
+
+
+Tips and Tricks
+- If the system launches SafeB9Sinstaller, that indicates success. 
+- If Red screen, usr2arm9ldr could not read SafeB9S.bin off of the SD card, is it there?
+- If Black screen, but pressing B repeadedly causes system to reset, then framebuffers not set correctly. This is probably an MSET9 issue, make an issue in the repo.
+- Any other hax failure will yield an infinite swirling pattern on the bottom screen (generic arm9 crash). Try again, making sure you didn't miss a step or add unncessesary steps.
+- If the Mii Maker icon re-appears, then you forgot to do step 6. Choose mset9.py option 3 then go back to step 4).
+
+Note: If you wish to re-attempt the exploit, select option 3 on mset9.py and go back to step 4).
+Note: When you are done with MSET9, DO NOT FORGET to run option 4 on mset9.py which uninstalls MSET9. Forgetting to do this will make installed apps error when launched and who knows what else!

@@ -1,0 +1,3 @@
+MSET9 v1.2c by zoogie
+
+https://3ds.hacks.guide/installing-boot9strap-(mset9)
